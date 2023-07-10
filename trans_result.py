@@ -21,7 +21,7 @@ for file_name in file_list:
             worksheet = workbook.active
 
             # 컬럼 헤더 설정
-            worksheet['A1'] = 'W-Code'
+            worksheet['A1'] = 'U-Code'
             worksheet['B1'] = '시스템 현황'
 
             # 데이터 입력을 시작할 행 번호 설정
