@@ -1,5 +1,9 @@
 # Results_automation
 ```bash
+pip install -r requirements.txt
+pyinstaller --onefile [*.py 파일명]
+```
+```bash
 trans_result.py: 진단결과 txt 파일 내용을 parsing해서 -> excel 파일로 만들어줌(+항목코드순으로 sorting)
 ```
 ```bash
